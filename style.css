@@ -1,0 +1,270 @@
+h1,h2,h3{
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2
+{
+    font-size:28px
+}
+h1
+{
+    padding-top: 95px;
+    text-align: center;
+}
+.main_nav
+{
+    position: fixed;
+    z-index: 1;
+    width: 99%;
+    background-image: url(img/nav_bg.jpg);
+    background-size: cover;
+    border-radius: 5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size:medium;}
+
+.main_nav img
+{
+    float: left;
+    margin-left: 10px;
+}
+.home_wall img
+{
+    width: 100%;
+}
+body
+{
+    background-color:black
+}
+.connect a
+{
+    display: block;
+}
+.links a{
+    color: rgb(153, 169, 232);
+    text-decoration: none;
+    margin-left: 10px;
+    font-size:20px;
+    text-shadow: rgba(52, 187, 167, 0.447) 2px 2px 5px;
+    
+}
+.links a:hover
+{
+    text-shadow: rgba(0, 0, 0, 0.719) 0px 0 10px;
+    color: rgb(71, 102, 226);
+}
+.links
+{
+    padding-top: 25px;
+    float: left;
+}
+.links a img
+{
+    width:60px;
+}
+main{ 
+    overflow:auto;
+    margin-left: 65px;
+}
+.connect
+{
+        position: fixed;
+        top: 200px;
+        z-index: 1;
+        margin-left: 10px;
+}
+.hover
+{   
+    position: relative;
+    height: 275px;
+    width: 275px;
+}
+.hover:hover ~ .stream {
+    display : block;
+    position: absolute;
+    bottom: 0px;
+}
+.stream
+{
+    display: none;
+}
+.stream:hover
+{
+    display : block;
+    position: absolute;
+    bottom: 0px;
+}
+.wrapper {
+    position: relative;
+    height: 275px;
+    width: 275px;
+    display: inline-block;
+    margin: 30px 30px 30px 0px;
+    text-align: center;
+  }
+.wrapper img
+{
+    width: 275px;
+}
+.connect img
+{
+    width: 35px;
+}
+.connect img:hover
+{
+    width: 40px;
+}
+#bio
+{
+    color: aliceblue;
+    clear: both;
+    padding-top: 80px;
+    padding-left: 10px;
+}
+.bio_img
+{
+    float: right;
+    border: 3px solid rgba(153, 169, 232, 0.484);
+    margin-top: 30px;
+    width:500px;
+}
+.contact
+{
+    display: inline-block;
+    width: fit-content;
+    margin: 15px 15px 0px 15px;
+}
+footer
+{
+    background-image: url(img/nav_bg.jpg);
+    background-size:cover;
+}
+footer a
+{
+    text-decoration: none;
+    color: rgb(153, 169, 232);
+}
+footer a:hover
+{
+    text-decoration: none;
+    color: rgb(71, 102, 226);
+}
+footer div
+{
+    margin-left: 31%;
+}
+.items section
+{
+    width: 350px;
+    border: 1px solid #0c17affe;
+    text-align: center;
+    display: inline-block;
+    margin: 15px;
+    background-color: rgb(190, 190, 190);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.items section a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(107, 43, 226);
+}
+.items section h3
+{
+    color: rgb(57, 31, 136);
+}
+.items section img
+{
+    width:350px;
+}
+.items section a:hover
+{
+    text-decoration: none;
+    text-shadow: rgba(83, 111, 204, 0.719) 0px 0 2px;
+}
+.cr
+{
+    text-align: center;
+    color: aliceblue;
+    font-size: smaller;
+}
+#releases
+{
+    padding-top: 80px;
+}
+#shop
+{
+    padding-top: 80px;
+}
+.items
+{
+    padding-left: 80px;
+}
+
+@media only screen and  (max-width: 760px) {
+
+    *{ float:none;}
+    .bio_img
+{
+    width: 100%;
+
+}
+.items
+{
+    padding-left: 0px;
+}
+.links a{
+    text-decoration: none;
+    font-size:20px;
+    display:block;
+    text-align: center;
+    }
+.links
+{
+    float: none;
+    padding-top: 0px;
+}
+.main_nav img
+{
+    margin: 0px;
+    float: none;
+    clear: both;
+}
+.main_nav
+{
+    display: flex;
+justify-content: center;
+}
+#releases
+{
+    padding-top: 200px;
+}
+#shop
+{
+    padding-top: 200px;
+}
+#bio
+{
+    padding-top: 200px;
+}
+.home_wall img
+{
+    display: none;
+}
+.items section img
+{
+    width:70%;
+}
+.items section
+{
+    width:65%;
+}
+h1
+{
+    padding-top: 230px;
+    font-size:20px;
+    text-align: center;
+}
+
+}
